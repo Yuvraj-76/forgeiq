@@ -1,0 +1,1 @@
+assest git ignore 
