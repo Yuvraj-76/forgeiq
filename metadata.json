@@ -1,0 +1,6 @@
+{
+  "name": "CatalogAI",
+  "description": "AI Product Data Enrichment & Cataloging Engine that transforms messy supplier data into standardized, high-confidence e-commerce product catalogs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
