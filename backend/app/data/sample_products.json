@@ -1,0 +1,413 @@
+[
+  {
+    "id": "prod-101",
+    "sku": "CAT-BOS-GSR120",
+    "brand": "Bosch",
+    "brandStandardized": "Bosch Professional",
+    "partNumber": "GSR 120-LI",
+    "rawDescription": "12v drill driver cordless 10mm 1500rpm 2x1.5ah",
+    "productTitle": "Bosch GSR 120-LI Professional 12V Cordless Drill Driver",
+    "categoryPath": "Tools & Hardware > Power Tools > Drills > Cordless Drills",
+    "categoryId": "cat_tools_power_drills_cordless",
+    "attributes": [
+      {
+        "id": "attr-1",
+        "name": "Voltage",
+        "value": "12",
+        "unit": "V",
+        "source": "supplier_description",
+        "confidence": 98,
+        "validationStatus": "verified",
+        "evidence": "12v in raw supplier input text",
+        "reason": "Direct numeric voltage literal extracted from supplier string '12v'",
+        "isStandard": true,
+        "verifiedByUser": true
+      },
+      {
+        "id": "attr-2",
+        "name": "Battery Type",
+        "value": "Lithium-Ion",
+        "unit": null,
+        "source": "ai_inference",
+        "confidence": 96,
+        "validationStatus": "verified",
+        "evidence": "'LI' suffix in MPN GSR 120-LI denotes Lithium-Ion battery chemistry",
+        "reason": "Manufacturer nomenclature rules map -LI to Lithium-Ion",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-3",
+        "name": "Chuck Size",
+        "value": "10",
+        "unit": "mm",
+        "source": "supplier_description",
+        "confidence": 95,
+        "validationStatus": "verified",
+        "evidence": "10mm keyless 3-jaw chuck specification",
+        "reason": "Direct metric chuck size match",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-4",
+        "name": "Max Speed",
+        "value": "1500",
+        "unit": "RPM",
+        "source": "supplier_description",
+        "confidence": 94,
+        "validationStatus": "verified",
+        "evidence": "1500rpm 2-speed planetary gearbox",
+        "reason": "Standardized unit RPM extracted",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-5",
+        "name": "Max Torque",
+        "value": "30",
+        "unit": "Nm",
+        "source": "external_spec_db",
+        "confidence": 92,
+        "validationStatus": "verified",
+        "evidence": "Bosch official OEM spec database for GSR 120-LI Gen 2",
+        "reason": "Retrieved from Bosch verified technical spec sheet",
+        "isStandard": true,
+        "verifiedByUser": false
+      }
+    ],
+    "features": [
+      "High-torque 2-speed motor engineered for robust screwdriving and precision drilling",
+      "Electronic Cell Protection (ECP) actively prevents battery overload, overheating, and deep discharge",
+      "Compact ergonomic housing designed for effortless overhead operation and tight access spaces",
+      "Integrated LED worklight illuminates dark work surfaces during fastening"
+    ],
+    "marketingSummary": "The Bosch GSR 120-LI Professional Cordless Drill Driver delivers dependable Bosch quality and high torque (up to 30 Nm) in a compact, lightweight 12V body.",
+    "seoKeywords": ["Bosch cordless drill", "GSR 120-LI", "12V drill driver", "10mm chuck drill", "Bosch power tools"],
+    "confidence": 95,
+    "confidenceBand": "High",
+    "status": "High Confidence",
+    "reviewStatus": "Approved",
+    "traceability": [
+      {
+        "stepId": 1,
+        "stage": "Input Parsing",
+        "title": "Raw Data Ingestion & Sanitization",
+        "status": "completed",
+        "detail": "Ingested brand 'Bosch', MPN 'GSR 120-LI', description tokens split and normalized.",
+        "evidenceSnippet": "Brand: Bosch | MPN: GSR 120-LI"
+      },
+      {
+        "stepId": 2,
+        "stage": "Model Identification",
+        "title": "OEM Catalog Matching",
+        "status": "completed",
+        "detail": "Matched MPN GSR 120-LI against Bosch Blue Professional Power Tool database.",
+        "evidenceSnippet": "Match confidence: 99.4%"
+      },
+      {
+        "stepId": 3,
+        "stage": "Taxonomy Classification",
+        "title": "Deep Tree Categorization",
+        "status": "completed",
+        "detail": "Assigned to 'Tools & Hardware > Power Tools > Drills > Cordless Drills' (L4).",
+        "evidenceSnippet": "Node ID: cat_tools_power_drills_cordless"
+      },
+      {
+        "stepId": 4,
+        "stage": "Attribute Extraction",
+        "title": "Multi-Factor Specification Extraction",
+        "status": "completed",
+        "detail": "Extracted 5 key attributes (Voltage, Battery Type, Chuck Size, Speed, Torque) with units.",
+        "evidenceSnippet": "12V, Lithium-Ion, 10mm, 1500 RPM, 30 Nm"
+      },
+      {
+        "stepId": 5,
+        "stage": "Title & Copy Synthesis",
+        "title": "Title Normalization Formula Applied",
+        "status": "completed",
+        "detail": "Built title: [Brand] + [MPN] + [Series] + [Voltage] + [Form Factor] + [Product Type].",
+        "evidenceSnippet": "Bosch GSR 120-LI Professional 12V Cordless Drill Driver"
+      },
+      {
+        "stepId": 6,
+        "stage": "Validation & Rule Engine",
+        "title": "Physical & Business Sanity Checks",
+        "status": "completed",
+        "detail": "Checked Voltage range [10.8-12.0V], Chuck [10mm <= 13mm], all constraint tests PASSED.",
+        "evidenceSnippet": "5/5 validation rules passed"
+      },
+      {
+        "stepId": 7,
+        "stage": "Confidence Scoring",
+        "title": "Weighted Provenance Aggregator",
+        "status": "completed",
+        "detail": "Calculated score: (DirectText*0.4) + (ModelMatch*0.35) + (SpecDb*0.25) = 95%.",
+        "confidenceDelta": 95
+      }
+    ],
+    "createdAt": "2025-02-15T10:00:00Z",
+    "updatedAt": "2025-02-15T10:00:00Z",
+    "sourceSystem": "CatalogAI-Gemini-Engine"
+  },
+  {
+    "id": "prod-102",
+    "sku": "CAT-DEW-DCD771",
+    "brand": "DeWalt",
+    "brandStandardized": "DEWALT",
+    "partNumber": "DCD771C2",
+    "rawDescription": "dewalt 20v max compact drill kit 1/2 in chuck 2 speed",
+    "productTitle": "DEWALT DCD771C2 20V MAX Cordless Compact 1/2-Inch Drill Driver Kit",
+    "categoryPath": "Tools & Hardware > Power Tools > Drills > Cordless Drills",
+    "categoryId": "cat_tools_power_drills_cordless",
+    "attributes": [
+      {
+        "id": "attr-201",
+        "name": "Voltage",
+        "value": "20",
+        "unit": "V MAX",
+        "source": "supplier_description",
+        "confidence": 99,
+        "validationStatus": "verified",
+        "evidence": "20v max in description text",
+        "reason": "Direct extraction of DEWALT 20V MAX battery platform designation",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-202",
+        "name": "Chuck Size",
+        "value": "1/2",
+        "unit": "in",
+        "source": "supplier_description",
+        "confidence": 98,
+        "validationStatus": "verified",
+        "evidence": "1/2 in chuck single sleeve ratcheting",
+        "reason": "Direct fraction imperial chuck size normalized to 1/2 in (13 mm)",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-203",
+        "name": "Battery Chemistry",
+        "value": "Lithium-Ion",
+        "unit": null,
+        "source": "external_spec_db",
+        "confidence": 97,
+        "validationStatus": "verified",
+        "evidence": "DEWALT 20V MAX battery pack specification (2x DCB207 1.3Ah)",
+        "reason": "Verified from kit suffix C2 which bundles two 1.3Ah Li-Ion packs",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-204",
+        "name": "Speed Settings",
+        "value": "0-450 / 0-1500",
+        "unit": "RPM",
+        "source": "external_spec_db",
+        "confidence": 93,
+        "validationStatus": "verified",
+        "evidence": "Dual speed transmission (0-450 & 1,500 rpm)",
+        "reason": "Retrieved from DEWALT catalog specifications",
+        "isStandard": true,
+        "verifiedByUser": false
+      }
+    ],
+    "features": [
+      "High performance motor delivers 300 unit watts out (UWO) of power ability completing a wide range of applications",
+      "High speed transmission delivers two speeds (0-450 & 1,500 rpm) for a range of fastening and drilling applications",
+      "1/2-inch single sleeve ratcheting chuck provides tight bit gripping strength",
+      "Ergonomic handle delivers comfort and control during extended jobsite sessions"
+    ],
+    "marketingSummary": "The DEWALT DCD771C2 20V MAX Cordless Drill/Driver Kit is designed with a high-performance motor that delivers 300 Unit Watts Out (UWO) of power.",
+    "seoKeywords": ["DeWalt drill kit", "DCD771C2", "20V MAX drill", "1/2 inch cordless drill"],
+    "confidence": 96,
+    "confidenceBand": "High",
+    "status": "High Confidence",
+    "reviewStatus": "Approved",
+    "traceability": [
+      {
+        "stepId": 1,
+        "stage": "Input Parsing",
+        "title": "Raw Data Ingestion",
+        "status": "completed",
+        "detail": "Ingested DeWalt DCD771C2 raw supplier string.",
+        "evidenceSnippet": "dewalt 20v max compact drill kit"
+      },
+      {
+        "stepId": 2,
+        "stage": "Taxonomy Classification",
+        "title": "Category Mapped",
+        "status": "completed",
+        "detail": "Mapped to Power Tools > Drills > Cordless Drills.",
+        "evidenceSnippet": "Cordless Drills"
+      },
+      {
+        "stepId": 3,
+        "stage": "Attribute Extraction",
+        "title": "Extracted 4 Specs",
+        "status": "completed",
+        "detail": "Voltage: 20V MAX, Chuck: 1/2 in, Chemistry: Lithium-Ion, Speed: 0-1500 RPM.",
+        "evidenceSnippet": "20V MAX, 1/2 in"
+      }
+    ],
+    "createdAt": "2025-02-16T11:20:00Z",
+    "updatedAt": "2025-02-16T11:20:00Z",
+    "sourceSystem": "CatalogAI-Gemini-Engine"
+  },
+  {
+    "id": "prod-103",
+    "sku": "CAT-MAK-DHP482",
+    "brand": "Makita",
+    "brandStandardized": "Makita",
+    "partNumber": "DHP482Z",
+    "rawDescription": "makita 18v lxt combi hammer drill bare unit",
+    "productTitle": "Makita DHP482Z 18V LXT Cordless Combi Hammer Drill - Body Only",
+    "categoryPath": "Tools & Hardware > Power Tools > Drills > Cordless Drills",
+    "categoryId": "cat_tools_power_drills_cordless",
+    "attributes": [
+      {
+        "id": "attr-301",
+        "name": "Voltage",
+        "value": "18",
+        "unit": "V",
+        "source": "supplier_description",
+        "confidence": 98,
+        "validationStatus": "verified",
+        "evidence": "18v in description",
+        "reason": "Standard 18V LXT platform detected",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-302",
+        "name": "Blows Per Minute",
+        "value": "0-28500",
+        "unit": "IPM",
+        "source": "external_spec_db",
+        "confidence": 91,
+        "validationStatus": "verified",
+        "evidence": "Hammer action rated at 0-28,500 bpm",
+        "reason": "Impact rate for masonry drilling",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-303",
+        "name": "Max Torque",
+        "value": "62",
+        "unit": "Nm",
+        "source": "external_spec_db",
+        "confidence": 93,
+        "validationStatus": "verified",
+        "evidence": "62 Nm hard joint torque rating",
+        "reason": "Makita published technical rating",
+        "isStandard": true,
+        "verifiedByUser": false
+      }
+    ],
+    "features": [
+      "2-speed variable transmission for masonry, steel, and timber drilling",
+      "Extreme Protection Technology (XPT) engineered for improved dust and water resistance in harsh conditions",
+      "Twin LED job light with pre-glow and afterglow functions",
+      "All-metal gear construction ensures ultra-high transmission durability"
+    ],
+    "marketingSummary": "The Makita DHP482Z is a compact and lightweight 18V LXT Combi Drill with 62Nm max torque and hammer drilling action.",
+    "seoKeywords": ["Makita DHP482", "Makita 18V combi drill", "LXT hammer drill", "bare unit power tool"],
+    "confidence": 94,
+    "confidenceBand": "High",
+    "status": "High Confidence",
+    "reviewStatus": "Approved",
+    "traceability": [
+      {
+        "stepId": 1,
+        "stage": "Input Parsing",
+        "title": "Raw Data Ingestion",
+        "status": "completed",
+        "detail": "Ingested Makita 18V LXT combi drill raw string.",
+        "evidenceSnippet": "makita 18v lxt combi hammer drill bare unit"
+      }
+    ],
+    "createdAt": "2025-02-17T09:15:00Z",
+    "updatedAt": "2025-02-17T09:15:00Z",
+    "sourceSystem": "CatalogAI-Gemini-Engine"
+  },
+  {
+    "id": "prod-104",
+    "sku": "CAT-SNY-WH1000XM5",
+    "brand": "Sony",
+    "brandStandardized": "Sony",
+    "partNumber": "WH-1000XM5/B",
+    "rawDescription": "sony wh1000xm5 noise cancelling wireless over ear headphones black 30hr battery",
+    "productTitle": "Sony WH-1000XM5 Wireless Industry-Leading Noise Canceling Over-Ear Headphones - Black",
+    "categoryPath": "Consumer Electronics > Audio & Sound > Headphones > Noise Cancelling",
+    "categoryId": "cat_electronics_audio_headphones",
+    "attributes": [
+      {
+        "id": "attr-401",
+        "name": "Connectivity",
+        "value": "Bluetooth 5.2 / 3.5mm Wired",
+        "unit": null,
+        "source": "supplier_description",
+        "confidence": 98,
+        "validationStatus": "verified",
+        "evidence": "wireless over ear headphones",
+        "reason": "Standardized wireless bluetooth protocol",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-402",
+        "name": "Battery Life",
+        "value": "30",
+        "unit": "hours",
+        "source": "supplier_description",
+        "confidence": 97,
+        "validationStatus": "verified",
+        "evidence": "30hr battery with ANC enabled",
+        "reason": "Explicit continuous playback time",
+        "isStandard": true,
+        "verifiedByUser": false
+      },
+      {
+        "id": "attr-403",
+        "name": "Noise Cancellation",
+        "value": "Active Noise Cancelling (ANC)",
+        "unit": null,
+        "source": "supplier_description",
+        "confidence": 99,
+        "validationStatus": "verified",
+        "evidence": "noise cancelling dual processor V1",
+        "reason": "Auto NC Optimizer with 8 microphones",
+        "isStandard": true,
+        "verifiedByUser": false
+      }
+    ],
+    "features": [
+      "Two processors control 8 microphones for unprecedented noise cancellation and pristine call quality",
+      "Auto NC Optimizer automatically optimizes noise cancelling based on wearing conditions and environment",
+      "Up to 30 hours of battery life with quick charging (3 min charge gives 3 hours of playback)",
+      "Ultra-comfortable, lightweight design with soft fit leather headband"
+    ],
+    "marketingSummary": "The Sony WH-1000XM5 headphones rewrite the rules for distraction-free listening with two processors controlling eight microphones.",
+    "seoKeywords": ["Sony WH-1000XM5", "Sony noise cancelling headphones", "ANC headphones", "Bluetooth headphones black"],
+    "confidence": 98,
+    "confidenceBand": "High",
+    "status": "High Confidence",
+    "reviewStatus": "Approved",
+    "traceability": [
+      {
+        "stepId": 1,
+        "stage": "Input Parsing",
+        "title": "Raw Data Ingestion",
+        "status": "completed",
+        "detail": "Ingested Sony WH-1000XM5 audio spec.",
+        "evidenceSnippet": "sony wh1000xm5 noise cancelling"
+      }
+    ],
+    "createdAt": "2025-02-18T14:40:00Z",
+    "updatedAt": "2025-02-18T14:40:00Z",
+    "sourceSystem": "CatalogAI-Gemini-Engine"
+  }
+]

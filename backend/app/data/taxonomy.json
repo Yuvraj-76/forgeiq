@@ -1,0 +1,53 @@
+{
+  "version": "2025.1",
+  "taxonomies": [
+    {
+      "id": "cat_tools_power_drills_cordless",
+      "path": "Tools & Hardware > Power Tools > Drills > Cordless Drills",
+      "level": 4,
+      "keywords": ["drill", "driver", "cordless", "brushless", "12v", "18v", "20v", "hammer drill", "combi drill", "gsr", "dcd", "dhp"],
+      "required_attributes": ["Voltage", "Chuck Size", "Battery Type", "Speed"],
+      "optional_attributes": ["Torque", "Weight", "Brushless", "Includes Battery", "Impact Rate"]
+    },
+    {
+      "id": "cat_tools_power_saws_circular",
+      "path": "Tools & Hardware > Power Tools > Saws > Circular Saws",
+      "level": 4,
+      "keywords": ["circular saw", "blade diameter", "rip cut", "bevel", "cutting depth"],
+      "required_attributes": ["Blade Diameter", "Voltage", "Arbor Size", "No Load Speed"],
+      "optional_attributes": ["Max Cut Depth 90", "Laser Guide", "Dust Port"]
+    },
+    {
+      "id": "cat_tools_power_grinders_angle",
+      "path": "Tools & Hardware > Power Tools > Grinders > Angle Grinders",
+      "level": 4,
+      "keywords": ["angle grinder", "disc diameter", "grinding", "spindle thread"],
+      "required_attributes": ["Disc Diameter", "Power Input", "Spindle Thread", "No Load Speed"],
+      "optional_attributes": ["Switch Type", "Anti-Kickback", "Weight"]
+    },
+    {
+      "id": "cat_electronics_smartphones",
+      "path": "Consumer Electronics > Mobile Devices > Smartphones",
+      "level": 3,
+      "keywords": ["smartphone", "phone", "iphone", "galaxy", "5g", "amoled", "oled", "camera", "storage"],
+      "required_attributes": ["Screen Size", "Storage Capacity", "RAM", "Battery Capacity", "Operating System"],
+      "optional_attributes": ["Main Camera", "5G Enabled", "Color", "Water Resistance Rating"]
+    },
+    {
+      "id": "cat_electronics_audio_headphones",
+      "path": "Consumer Electronics > Audio & Sound > Headphones > Noise Cancelling",
+      "level": 4,
+      "keywords": ["headphones", "anc", "noise cancelling", "bluetooth", "wireless", "earcups"],
+      "required_attributes": ["Connectivity", "Battery Life", "Noise Cancellation", "Driver Size"],
+      "optional_attributes": ["Microphone", "Weight", "Charging Port", "Codec Support"]
+    },
+    {
+      "id": "cat_safety_ppe_eyewear",
+      "path": "Industrial & Safety > Personal Protective Equipment > Safety Eyewear",
+      "level": 3,
+      "keywords": ["safety glasses", "goggles", "anti-fog", "uv protection", "ansi z87"],
+      "required_attributes": ["Lens Coating", "ANSI Rating", "Frame Material", "UV Protection"],
+      "optional_attributes": ["Lens Color", "Scratch Resistant", "Ventilation"]
+    }
+  ]
+}
